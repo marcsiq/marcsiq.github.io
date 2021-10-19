@@ -1,0 +1,245 @@
+# Site
+repository: marcsiq/marcsiq.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Marc Siquier Peñafort
+title: Digital Signal Processing (DSP) Engineer
+email: marcsiquierpenyafort@gmail.com
+website: https://marcsiq.github.io
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+# twitter_username: facespics
+github_username:  marcsiq
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: marcsiquier
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Download CV
+  icon: fas fa-file
+  url: https://github.com/marcsiq/marcsiq.github.io/raw/master/files/cv.pdf
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+google_analytics: "UA-108662268-1"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  **Hello! I'm Marc, a Digital Signal Processing (DSP) Engineer**
+
+  My motivation for music began when I started to attend to violin classes at the age of four. 
+  After a few years I entered to the Conservatory of Mallorca where I attended violin and <mark>music</mark> lessons for over ten years. 
+  During those years, and probably motivated by the arrival of the first computer at home, I developed a passion for <mark>technology</mark> too. 
+  
+  Developing a career that merged those two passions has always been my main goal, find below the steps I took.
+
+content:
+  # - title: Section Name
+  #   layout: list (options: list, text)
+  #   content:
+  #     - layout: left (options: left, right, top, top-right, top-middle)(default: left)
+  #       title: Name of item (eg. Company or Project name)
+  #       sub_title: Sub title (eg. Qualification or Job title)(optional)
+  #       caption: Item caption (eg. Employment or course dates)(optional)
+  #       link: Web link (eg. https://sproogen.github.io/modern-resume-theme)(optional)
+  #       link_text: Text for link (optional: without this link will show URL as link text)
+  #       additional_links: (optional)
+  #         - title: Link name
+  #           icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  #           url: Link url (eg. https://google.com)
+  #       quote: >
+  #         Short overview or quote for the item
+  #       description: | # this will include new lines to allow paragraphs
+  #         Main content area for the list item.
+  # - title: Section Name
+  #   layout: text (options: list, text)
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      # - layout: left
+      #   title: Neural DSP Technologies Oy.
+      #   link: https://neuraldsp.com/
+      #   link_text: neuraldsp.com
+      #   sub_title: DSP Engineer (Contractor)
+      #   caption: Dec 2021 - Present
+      #   #quote: > 
+      #   description: | # this will include new lines to allow paragraphs
+      #     SHARC DSP algorithm development, implementation and optimisation.
+
+      - layout: left
+        title: Blackstar Amplification Ltd.
+        link: https://blackstaramps.com/
+        link_text: blackstaramps.com
+        sub_title: DSP Engineer
+        caption: Feb 2020 - Jun 2021
+        #quote: > 
+        description: | # this will include new lines to allow paragraphs
+          DSP algorithm development, implementation and optimisation. 
+          This included both high-level modeling (Matlab, C/C++, VST plugins) and assembler level optimisation on the target platforms. 
+          Also assisting in project planning, scoping and problem solving in terms of software.
+
+      - layout: left
+        title: Meridian Audio Ltd.
+        link: https://www.meridian-audio.com/
+        link_text: meridian-audio.com
+        sub_title: DSP Engineer
+        caption: Feb 2018 - Feb 2020
+        #quote: >
+        description: | # this will include new lines to allow paragraphs
+          Orchestrating development and implementation of audio algorithms. 
+          Implementing DSP code for both Meridian Core products and collaborative LG Electronics products. 
+          Maintaining and developing the whole Meridian software ecosystem, from the embedded software host to the actual DSP code.
+
+      - layout: left
+        title: Barcelona Supercomputing Center
+        link: https://www.bsc.es/
+        link_text: bsc.es
+        sub_title: Developer
+        caption: Apr 2015 - Dec 2017
+        #quote: >
+        description: | # this will include new lines to allow paragraphs
+          Working at the Computer Science - Storage Systems department, on the European IOStack project. 
+          The main objective was to create software-defined Storage (SDS) toolkit for Big Data on top of the OpenStack platform, 
+          enabling efficient execution of virtualized analytics applications over virtualized storage resources.
+
+      - layout: left
+        title: AMES - Sintered Metallic Components
+        link: https://www.ames-sintering.com
+        link_text: ames-sintering.com
+        sub_title: Developer
+        caption: Nov 2014 - Feb 2015
+        #quote: >
+        description: | # this will include new lines to allow paragraphs
+          Created an app to detect imperfections on metal sintered pieces as part of AMES quality system based on 
+          acquisition of vibration signals of the pieces, signal processing and classification algorithm based on Neural Networks.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Universitat Pompeu Fabra
+        caption: 2016 - 2017
+        sub_title: MSc in Sound and Music Computing
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+          Practical and theoretical approaches in topics such as computational modeling, audio engineering, perception, 
+          cognition, and interactive systems, the program gives the scientific and technological background needed to 
+          start a research or professional career in audio computing.
+          From the generation and analysis of sounds to their transmission and perception, and its analysis from a 
+          technical and computational point of view.
+
+      - layout: left
+        title: Universitat Politècnica de Catalunya
+        caption: 2010 - 2015
+        sub_title: BSc in Audiovisuals Systems Engineering, Telecommunications Engineering
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+          Fundamentals and applications of audio, video and multimedia systems and acquisition techniques for the analysis 
+          and synthesis of electrical and electronic circuits and digital and analogue communications. 
+          Specialization in acoustics and sound systems, digital signal processing, communication systems, electronic 
+          equipment and devices and multimedia techniques.  
+
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        #title: Computational modelling of expressive music performance in hexaphonic guitar.
+        sub_title: Computational modelling of expressive music performance in hexaphonic guitar. 
+        caption: Master's Thesis in Sound and Music Computing, Sep 2017
+        additional_links:
+          - title: Link
+            icon: fas fa-link
+            url: https://zenodo.org/record/1095501#.WoGoyOi5uUk
+
+      - layout: top
+        #title: Computational modelling of expressive music performance in hexaphonic guitar.
+        sub_title: Computational modelling of expressive music performance in hexaphonic guitar.
+        caption: Proc. of the 10th International Workshop of Machine learning and music, Barcelona, Spain. Oct 2017
+        additional_links:
+          - title: Link
+            icon: fas fa-link
+            url: https://musml.weebly.com/uploads/1/5/7/1/15718278/mml17proceedings.pdf
+
+
+      - layout: top
+        #title: Improving OpenStack Swift interaction with the I/OStack to enable Software Defined Storage.
+        sub_title: Improving OpenStack Swift interaction with the I/OStack to enable Software Defined Storage.
+        caption: EEE SC2-2017. The 7th IEEE International Symposiumon Cloud and Service Computing,Kanazawa, Japan, Nov 2017
+        additional_links:
+          - title: Link
+            icon: fas fa-link
+            url: https://www.bsc.es/es/research-and-development/publications/improving-openstack-swift-interaction-the-io-stack-enable
+
+      - layout: top
+        #title: Query by Singing/Humming (Android App)
+        sub_title: Query by Singing/Humming (Android App)
+        caption: Degree's Final Project on Audiovisuals Systems, Feb 2015
+        additional_links:
+          - title: Link
+            icon: fas fa-link
+            url: http://upcommons.upc.edu/pfc/handle/2099.1/25415
+
+  - title: Technical and Personal Skills # Title for the section
+    layout: text # Type of content section (list/text)
+    content: | # this will include new lines to allow paragraphs
+      **Languages**
+        - Catalan, Spanish, English (*Cambridge Certificate in Advance English*, Jun 2015)
+      
+      **Programming Languages**
+        - Proficient in: C/C++, Python, Matlab
+        - Medium ability with: JavaScript, Java, Bash, SQL, PHP, Android SDK, R.
+      
+      **Frameworks** 
+        - JUCE SDK, SHARC DSP, Motorola DSP, ARM Cortex-M, PureData, Max, SigmaStudio.
+      
+      **Skills**
+        - Digital Signal Processing, Audio Processing, Audio Electronics, Audio Plugins Development, 
+      Machine Learning, Pattern Recognition, Bio-metrics, Acoustics, Music Technology, Music Recording, Music Production, 
+      GIT Version Control, Linux systems, LaTex.
+      
+      **On-Line Courses:**
+        - *Audio Coding: Beyond MP3.* Universitat Politècnica de València, edX, Sep 2017
+        - *Machine Learning for musicians and artists.* Goldsmiths University of London, Kadenze, Jun 2017
+        - *Audio Signal Processing for music applications.* Universitat Pompeu Fabra & Stanford University, Coursera, Sep 2016
+        - *Machine Learning.* Stanford University, Coursera, Jun 2016
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
