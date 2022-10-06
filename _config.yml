@@ -89,10 +89,11 @@ content:
         link: https://neuraldsp.com/
         link_text: neuraldsp.com
         sub_title: DSP Engineer
-        caption: Dec 2021 - Present
+        caption: Jun 2021 - Present
         #quote: > 
         description: | # this will include new lines to allow paragraphs
-          SHARC DSP algorithm development, implementation and optimisation.
+          SHARC DSP algorithm development, implementation and optimisation. 
+          Working on the Embedded DSP team, maintaining and optimising current models, modelling and developing new models while also supporting algorithm design, UI and creative teams.
 
       - layout: left
         title: Blackstar Amplification Ltd.
